@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .register {
   height: 100vh;
-  background-color: rgb(204, 197, 245);
+  background-color: rgb(119, 89, 179);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +20,7 @@
     .left {
       flex: 1;
       background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
-        url("https://images.pexels.com/photos/1670187/pexels-photo-1670187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+        url("https://images.pexels.com/photos/3109820/pexels-photo-3109820.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
           center;
       background-size: cover;
       padding: 50px;
@@ -41,6 +45,11 @@
         color: rebeccapurple;
         font-weight: bold;
         cursor: pointer;
+        border-radius: 10px;
+      }
+      button:hover {
+        color: white;
+        background-color: rgb(119, 89, 179);
       }
     }
     .right {
@@ -51,7 +60,7 @@
       gap: 50px;
       justify-content: center;
       h1 {
-        color: #555;
+        color: rgb(33, 2, 49);
       }
       form {
         display: flex;
@@ -67,10 +76,14 @@
         width: 50%;
         padding: 10px;
         border: none;
-        background-color: #938eef;
+        background-color: rgb(119, 89, 179);
         color: white;
         font-weight: bold;
         cursor: pointer;
+        border-radius: 10px;
+      }
+      button:hover {
+        background-color: rgb(40, 6, 61);
       }
     }
   }

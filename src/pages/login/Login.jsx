@@ -5,7 +5,7 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>hello</h1>
+          <h1>Hello</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint illum
             facere eaque inventore dolorum quaerat, maiores quasi recusandae in,
