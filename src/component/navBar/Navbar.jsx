@@ -7,8 +7,11 @@ import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import NotificationsActiveOutlinedIcon from "@mui/icons-material/NotificationsActiveOutlined";
 import { Link } from "react-router-dom";
+import { DarkModeContext } from "../../context/darkModeContext";
+import { useContext } from "react";
 
 const Navbar = () => {
+  const { toggle } = useContext(DarkModeContext);
   return (
     <div className="navbar">
       <div className="left">
@@ -16,7 +19,7 @@ const Navbar = () => {
           <span>Connectopia</span>
         </Link>
         <HomeOutlinedIcon />
-        <DarkModeOutlinedIcon />
+        <DarkModeOutlinedIcon onClick={toggle} />
         <SettingsApplicationsOutlinedIcon />
         <div className="search">
           <SearchOutlinedIcon />
