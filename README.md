@@ -4,6 +4,18 @@ Welcome to **Connectopia**, the social media platform designed for the modern us
 
 Connectopia is not just an app; it's your new social home, complete with dark mode, profile recommendations, and full responsiveness across all devices. 🌑📱
 
+## Login & Register functionality
+![image](https://github.com/user-attachments/assets/3870624a-0a88-40df-b54f-5c95d2a31a2a)
+
+![image](https://github.com/user-attachments/assets/f3292bf8-8108-4c54-b736-bf07f90ded31)
+
+![image](https://github.com/user-attachments/assets/d30c274c-7b36-45b2-afd0-e3c8c63f6a6b)
+
+![image](https://github.com/user-attachments/assets/9244063f-3b13-43f8-906a-1db8c40b75a0)
+
+
+
+
 ## Features 🌟
 
 - Profile Customization
